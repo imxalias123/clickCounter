@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #2d3a35;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+
+.para {
+  color: #2d3a35;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+
+.timer {
+  color: #c20a72;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.button {
+  color: white;
+  font-family: 'roboto';
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  background-color: #007bff;
+}
