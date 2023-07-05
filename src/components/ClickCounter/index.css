@@ -2,12 +2,16 @@
 .container {
   background-color: #f1f5f8;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
   color: #2d3a35;
   font-family: 'roboto';
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .para {
@@ -19,11 +23,14 @@
 .timer {
   color: #c20a72;
   font-family: 'roboto';
-  font-size: 30px;
+  font-size: 40px;
 }
 .button {
   color: white;
   font-family: 'roboto';
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
   font-size: 15px;
   cursor: pointer;
   outline: none;
